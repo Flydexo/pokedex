@@ -1,0 +1,6 @@
+.pokemon {
+	@apply flex flex-col gap-4 items-center py-4 font-semibold rounded-2xl border-slate-300 border-2 shadow-xl;
+}
+.types {
+	@apply flex items-center gap-2;
+}

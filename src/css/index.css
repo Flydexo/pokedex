@@ -1,0 +1,11 @@
+.pokemons {
+	@apply grid p-8 grid-cols-8 gap-8;
+}
+
+.filters {
+	@apply w-full flex justify-between px-4 py-8 items-center;
+}
+
+.filters input {
+	@apply outline-none border-slate-300 border-2 rounded-lg px-2 py-2 min-w-[30%];
+}
